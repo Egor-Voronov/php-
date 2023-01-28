@@ -1,6 +1,6 @@
 <html>
 <head> 
-    <title>уроки php пирвп</title>
+    <title><?=$title?></title>
 </head>
 <body>
 
