@@ -37,6 +37,34 @@
 
     // второй урок
     require "footer.php";
+
+    //четверты урок
+
+    echo"<h1><b>четвертый урок</b></h1>";
+
+    if (isset ($x)) {
+        echo 'переменная существует';
+    } else {
+        echo 'переменной не существует';
+    };
+
+    unset($x);
+
+    if (isset ($x)) {
+        echo 'переменная существует <br>';
+    } else {
+        echo 'переменной не существует <br>';
+    };
+
+    $x = '15';
+    $null;
+
+    echo 'is numeric - '.is_numeric($x)."<br>";
+    echo 'is integer - '.is_integer($x)."<br>";
+    echo 'is double - '.is_double($x)."<br>";
+    echo 'is string - '.is_string($x)."<br>";
+    echo 'type - '.gettype($x)."<br>";
+    echo 'type - '.gettype($null)."<br>";
 ?>
 
 <h1><b>третий урок</b></h1>
@@ -49,3 +77,4 @@
     <textarea name='email' cols='35' rows='15' placeholder="email"></textarea><br>
     <input type="submit" name='done' value='готово'>
 </form>
+
